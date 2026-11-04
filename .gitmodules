@@ -9,4 +9,4 @@
 [submodule "ZAPDTR"]
 	path = ZAPDTR
 	url = https://github.com/Waterdish/ZAPDTR.git
-	branch = mm
+	branch = main
