@@ -1,7 +1,7 @@
 [submodule "libultraship"]
 	path = libultraship
 	url = https://github.com/knkimon-lang/libultraship.git
-	branch = mm
+	branch = main
 [submodule "OTRExporter"]
 	path = OTRExporter
 	url = https://github.com/Waterdish/OTRExporter.git
@@ -9,4 +9,4 @@
 [submodule "ZAPDTR"]
 	path = ZAPDTR
 	url = https://github.com/Waterdish/ZAPDTR.git
-	branch = main
+	branch = mm
