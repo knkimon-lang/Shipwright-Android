@@ -48,7 +48,7 @@ docker run --network="host" --rm \
     -v "$PROJECT_PATH":/workspace \
     -w /workspace \
     $IMAGE_NAME \
-    bash -c "apt-get update && apt-get install -y libpng-dev && cp -a local.properties Android/ && cd Android && ./gradlew ${GRADLEW_BUILD_TYPE}"
+    bash -c "apt-get update && apt-get install -y pkg-config libpng-dev libzip-dev libbz2-dev zlib1g-dev libssl-dev && cp -a local.properties Android/ && cd Android && ./gradlew ${GRADLEW_BUILD_TYPE}"
 
 BUILD_RESULT=$?
 
